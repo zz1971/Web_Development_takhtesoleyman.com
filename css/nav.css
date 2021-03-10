@@ -1,0 +1,94 @@
+﻿@font-face {
+  font-family: 'Veteran Typewriter';
+  src: url('../fonts/Veteran Typewriter.eot?#') format('eot'),  /* IE6–8 */
+       url('../fonts/Veteran Typewriter.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/Veteran Typewriter.ttf') format('truetype'),  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+	   url('../fonts/Veteran Typewriter.svg#Veteran Typewriter') format('svg'),/* Legacy iOS */
+	   url('../fonts/Veteran Typewriter.otf') format('opentype'); 
+}
+@font-face {
+  font-family: 'Cataneo BT';
+  src: url('../fonts/Cataneo BT.eot?#') format('eot'),  /* IE6–8 */
+       url('../fonts/Cataneo BT.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/Cataneo BT.ttf') format('truetype'),  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+	   url('../fonts/Cataneo BT.svg#Veteran Typewriter') format('svg'),/* Legacy iOS */
+	   url('../fonts/Cataneo BT.otf') format('opentype'); 
+}
+@font-face {
+  font-family: 'THE ALISTAREN BETA';
+  src: url('../fonts/THE ALISTAREN BETA.eot?#') format('eot'),  /* IE6–8 */
+       url('../fonts/THE ALISTAREN BETA.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/THE ALISTAREN BETA.ttf') format('truetype'),  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+	   url('../fonts/THE ALISTAREN BETA.svg#Veteran Typewriter') format('svg'),/* Legacy iOS */
+	   url('../fonts/THE ALISTAREN BETA.otf') format('opentype'); 
+}
+#main-head>#main-menu
+{
+	width:580px;
+	height:60px;
+	/*margin-right:10px;
+	/*background-color:orange;*/
+	float:right;
+
+}
+#main-head>#main-menu>ul{
+	list-style:none;
+}
+#main-head>#main-menu>ul>li{
+	float:right;
+}
+#main-head>#main-menu>ul>li>a{
+	display:block;
+	width:96.6px;
+	height:60px;
+	text-decoration:none;
+	line-height:60px;
+	text-align:center;
+	border-radius:10px;
+	box-shadow:0px 0px 5px #fff inset;
+	box-shadow:0px 0px 2px rgb(144,128,112) inset;
+	box-shadow:0px 0px 10px rgba(77,64,55,.7) inset,0px 0px 10px rgba(77,64,55,.7),0px 0px 10px rgba(77,64,55,.7);
+	box-shadow:0px 0px 5px rgb(144,128,112) inset,0px 0px 5px rgb(144,128,112),0px 0px 5px rgb(144,128,112);
+	box-shadow:0px 0px 10px rgba(57,44,35,.7) inset,0px 0px 10px rgba(57,44,35,.7),0px 0px 10px rgba(57,44,35,.7);
+	background-color:rgba(144,128,112,.4);
+	background-color:rgba(0,94,72,.7);
+	color:rgb(194,58,0);
+	font-size:22px;
+	font-weight:bold;
+	color:rgb(164,28,0);
+	color:rgb(246,246,246);
+	color:rgb(204,188,172);
+	/*font-family:Cataneo BT;
+	font-family:THE ALISTAREN BETA;	*/
+	font-family:veteran typewriter;
+	
+}
+#main-head>#main-menu>ul>li>a:hover{
+	/*box-shadow:0px 0px 7px rgb(234,254,253) inset;
+	box-shadow:0px 0px 7px rgb(234,254,253) inset,1px 1px 5px rgb(234,254,253),-1px -1px 5px rgb(234,254,253);
+	color:rgb(252,47,0);
+	color:rgb(234,254,253);
+	color:rgb(228,254,255);*/
+	color:rgb(214,255,255);
+	color:rgb(164,28,0);
+	color:rgb(117,104,95);
+	color:rgb(77,64,55);
+}
+#main-head>#main-menu>ul>li>.default{
+	color:rgb(246,246,246);
+	color:rgb(164,28,0);
+	color:rgb(127,114,105);
+	color:rgb(117,104,95);
+	color:rgb(107,94,85);
+	color:rgb(77,64,55);
+}
+
+.Nodefault{
+	color:rgb(252,47,0);
+	color:rgb(164,28,0);
+	color:rgb(117,104,95);
+	color:rgb(107,94,85);
+	color:rgb(77,64,55);
+	transition-timing-function:ease-in;
+	transition-duration:.9s;
+}
